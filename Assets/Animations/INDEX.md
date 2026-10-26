@@ -1,8 +1,10 @@
 # Locker Folio — Animation Archive
 
+**Interactive browser:** open [`animation-gallery.html`](../../animation-gallery.html) from the repository root to search, preview, and inspect all archived animation groups.
+
 A source-oriented inventory of the animation and interaction systems in the forked Locker Folio project.
 
-- **Target fork:** https://github.com/zhushan-wubi/locker-folio
+- **Target fork:** https://github.com/isayaGIT/locker-folio
 - **Upstream:** https://github.com/qzz0518/locker-folio
 - **Live demo:** https://locker.zezn.dev/
 - **Audited revision:** `9f5891f4a7512ec71340a2f2f3fdffaa23bc1335`
