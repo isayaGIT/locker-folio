@@ -1,0 +1,228 @@
+[
+  {
+    "id": "01",
+    "slug": "loading",
+    "title": "Loading / 背景文字漂移",
+    "motion": "Timeline choreography",
+    "trigger": "首次加载应用；背景装饰文字持续漂移。",
+    "copied_source_count": 9,
+    "keyframes": [
+      "ghostDrift"
+    ]
+  },
+  {
+    "id": "02",
+    "slug": "mosaic-reveal",
+    "title": "Mosaic Reveal / 马赛克揭幕",
+    "motion": "Timeline choreography",
+    "trigger": "加载完成后，91 个格子错峰淡出揭开场景。",
+    "copied_source_count": 7,
+    "keyframes": [
+      "cellOut"
+    ]
+  },
+  {
+    "id": "03",
+    "slug": "scene-intro",
+    "title": "3D Scene Intro / 柜体场景入场",
+    "motion": "Timeline choreography + 3D frame loop",
+    "trigger": "主时钟推进开场；柜体旋正、镜头推近、柜门与物件按时间线出现。",
+    "copied_source_count": 24,
+    "keyframes": []
+  },
+  {
+    "id": "04",
+    "slug": "camera-focus",
+    "title": "Camera Focus / 镜头聚焦与返回",
+    "motion": "Interaction-triggered timeline",
+    "trigger": "点击热点或实体物件，镜头飞向目标；返回时恢复稳定机位。",
+    "copied_source_count": 12,
+    "keyframes": []
+  },
+  {
+    "id": "05",
+    "slug": "surface-drag",
+    "title": "Surface Drag / 3D 物件拖动与悬浮",
+    "motion": "Interaction-driven + frame loop",
+    "trigger": "拖动物件时通过射线与承载面求交并限制边界，松手后反馈/回弹。",
+    "copied_source_count": 17,
+    "keyframes": []
+  },
+  {
+    "id": "06",
+    "slug": "hotspot-rings",
+    "title": "Hotspot Rings / 热点扩散反馈",
+    "motion": "Frame-driven + interaction",
+    "trigger": "场景热点的环形反馈与命中按钮响应。",
+    "copied_source_count": 10,
+    "keyframes": []
+  },
+  {
+    "id": "07",
+    "slug": "poster-intro",
+    "title": "Poster Intro / 海报 3D 入场编排",
+    "motion": "GSAP timeline + 3D scene",
+    "trigger": "进入海报作品子页时，海报环绕、聚拢、叠放、淡出并展开。",
+    "copied_source_count": 12,
+    "keyframes": []
+  },
+  {
+    "id": "08",
+    "slug": "poster-deck",
+    "title": "Poster Deck / 海报拖动与惯性",
+    "motion": "Interaction-driven + frame loop",
+    "trigger": "左右拖动海报，释放后惯性滑动，循环切换并按速度倾斜。",
+    "copied_source_count": 12,
+    "keyframes": []
+  },
+  {
+    "id": "09",
+    "slug": "work-folders",
+    "title": "Work Folders / 文件夹与纸张层次",
+    "motion": "Timeline + hover interactions",
+    "trigger": "作品文件夹入场、悬浮抬起、纸张分层抽出、前板翻转。",
+    "copied_source_count": 8,
+    "keyframes": [
+      "starIn",
+      "starSpinA",
+      "starSpinB",
+      "foldIn"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "overlay-lifecycle",
+    "title": "Overlay Lifecycle / 浮层进入与退出",
+    "motion": "Timeline choreography",
+    "trigger": "内容浮层挂载、关闭、退出态与焦点控制。",
+    "copied_source_count": 11,
+    "keyframes": [
+      "ovhOut",
+      "ovIn",
+      "closeIn",
+      "wvIn"
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "work-transition",
+    "title": "Work Transition / 圆形遮罩与波纹转场",
+    "motion": "Web Animations API + frame loop",
+    "trigger": "作品子视图返回文件夹时，圆盘与波纹遮罩执行转场。",
+    "copied_source_count": 7,
+    "keyframes": []
+  },
+  {
+    "id": "12",
+    "slug": "navigation",
+    "title": "Navigation / 导航下划线与菜单",
+    "motion": "CSS transitions + keyframes",
+    "trigger": "导航下划线扫过、菜单滑入、导航文字位置反馈。",
+    "copied_source_count": 7,
+    "keyframes": [
+      "ruleSwipe",
+      "navMenuIn"
+    ]
+  },
+  {
+    "id": "13",
+    "slug": "credit-entry",
+    "title": "Credit Entry / 来源署名入场",
+    "motion": "CSS keyframes + transitions",
+    "trigger": "页面左下角复刻出处与源码入口延迟入场。",
+    "copied_source_count": 4,
+    "keyframes": [
+      "crIn"
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "about-card",
+    "title": "About Card / 信息卡片弹入",
+    "motion": "CSS keyframes",
+    "trigger": "打开 ABOUT 后，身份卡片下落并带有弹性落位。",
+    "copied_source_count": 9,
+    "keyframes": [
+      "idcDrop"
+    ]
+  },
+  {
+    "id": "15",
+    "slug": "skills-deck",
+    "title": "Skills Deck / 技能内容分层入场",
+    "motion": "CSS keyframes + state-driven transitions",
+    "trigger": "SKILLS 浮层中内容分批错峰出现，并在不同展示模式间切换。",
+    "copied_source_count": 10,
+    "keyframes": [
+      "skModeIn",
+      "skIn",
+      "skFade"
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "contact-board",
+    "title": "Contact Board / 联系纸条与纸张展开",
+    "motion": "CSS keyframes + interaction",
+    "trigger": "CONTACT 内容入场，纸条飞出，纸张展开，控件响应。",
+    "copied_source_count": 18,
+    "keyframes": [
+      "cbIn",
+      "noteFly",
+      "paperIn"
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "video-list",
+    "title": "Video List / 视频列表入场与悬浮",
+    "motion": "CSS keyframes + transitions",
+    "trigger": "影像列表错位入场，卡片悬浮和选中反馈。",
+    "copied_source_count": 11,
+    "keyframes": [
+      "vlIn"
+    ]
+  },
+  {
+    "id": "18",
+    "slug": "design-view",
+    "title": "Design View / 设计作品与书刊展开",
+    "motion": "CSS keyframes + transitions",
+    "trigger": "设计页入场、标题出现、杂志/书刊展开与切换、IP 设计卡片出现。",
+    "copied_source_count": 21,
+    "keyframes": [
+      "dvIn",
+      "pdHead",
+      "ipIn"
+    ]
+  },
+  {
+    "id": "19",
+    "slug": "photo-wall",
+    "title": "Photograph Wall / 照片墙拖动与切换",
+    "motion": "Interaction-driven + transitions",
+    "trigger": "照片墙布局、拖动与选中/切换反馈。",
+    "copied_source_count": 13,
+    "keyframes": []
+  },
+  {
+    "id": "20",
+    "slug": "website-carousel",
+    "title": "Website Carousel / 网站预览卡片轮播",
+    "motion": "CSS transitions + keyframes",
+    "trigger": "网站预览卡片的发光、轮播、悬浮与选择反馈。",
+    "copied_source_count": 11,
+    "keyframes": [
+      "wscFade"
+    ]
+  },
+  {
+    "id": "21",
+    "slug": "fallback-transitions",
+    "title": "Fallback / 降级页面与控件反馈",
+    "motion": "CSS transitions",
+    "trigger": "WebGL/性能降级路径中的静态首屏与控件反馈。",
+    "copied_source_count": 5,
+    "keyframes": []
+  }
+]
